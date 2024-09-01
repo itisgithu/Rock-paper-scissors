@@ -1,0 +1,107 @@
+/*Rock beats saesors  || Seasors beats paper  || Paper beats rock */
+/*Hole web page*/
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    
+
+}
+
+/*Heading */
+h1
+{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ color: black;
+ background-color: blueviolet;
+ height: 5rem;
+}
+
+/* Three option */
+.choice
+{
+height: 125px;
+width: 125px;
+border: 2px;
+border: 1px solid rgb(14, 10, 10);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.choice:hover
+{
+ opacity: 0.4; /*to blur  image */
+ cursor: progress; /*Hand symbol */
+
+}
+img
+{
+    height: 120px;
+    width: 120px; 
+    object-fit: cover; /*Image will more fit inside the div */
+    border-radius: 50%;
+    border-image-repeat: space; 
+}
+.choices
+{
+ margin-top: 5rem;/* 1rem =16px */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 3rem;
+
+}
+
+.score-board
+{
+ margin-top: 3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
+ gap: 5rem;
+
+}
+#user-score#computer
+{
+font-size: 4rem;
+}
+
+#msg
+{
+margin-top: 4rem;
+background-color:#081b31;
+color: white;
+font-size: 1.5rem;
+display: inline;
+border: 2px solid black;
+border-radius: 1rem;
+padding: 1rem;
+
+}
+.msg-container
+{
+margin-top: 30px;
+
+}
+
+
+
+.ins
+{
+margin: 20px;
+display: inline;
+
+}
+.ins-container
+{
+    margin-top: 20px;
+}
