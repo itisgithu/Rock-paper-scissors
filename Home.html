@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock paper Seasors</title>
+<link rel="stylesheet"  href="style.css"></link>
+
+
+</head>
+<body>
+<!--Rock beats saesors  || Seasors beats paper  || Paper beats rock-->
+
+<!--Heading-->
+<h1> Rock Paper Seasor</h1>
+
+<!--Three options-->
+<div class="choices">
+   <div class="choice" id="rock">
+   <img src="Rock.png" >
+   </div>
+   <div class="choice" id="paper">
+   <img src="paper.jpeg" >
+   </div>
+    <div class="choice" id="scissors">
+    <img src="scissors.png">
+    </div>
+</div>
+ <!--Score board-->
+ <div class="score-board">
+  <div class="score">
+  <p id="user-score">0</p>  <!--ID bcs to access the html to java script -->
+  <p>User</p>
+
+</div>
+
+<div>
+<div class="score"></div>
+<p id="comp-score">0</p> <!--ID bcs to access the html to java script -->
+<p>Computer</p>
+</div>
+</div>
+
+<!--Message Result-->
+<div class="msg-container">
+<p id="msg"><b> Play your  move</b></p>
+</div>
+
+<!--Instructuon-->
+<div class="ins-container"> 
+<h3 style="color: red;">Game Instruction</h3>
+<P class="ins">Rock beats Scissors || </P>
+<p class="ins">Paper beats Rock||</p>
+<p class="ins">Scissors beats Paper ||</p>
+</div>
+<script src="games.js"></script>
+</body>
+</html>
